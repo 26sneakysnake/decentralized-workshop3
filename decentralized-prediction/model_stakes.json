@@ -1,0 +1,78 @@
+{
+    "models": {
+        "http://localhost:5000/predict": {
+            "weight": 1.0,
+            "stake": 1000.0,
+            "total_predictions": 5,
+            "successful_predictions": 5
+        },
+        "http://localhost:5001/predict": {
+            "weight": 0.6400000000000001,
+            "stake": 800.0,
+            "total_predictions": 5,
+            "successful_predictions": 4
+        },
+        "http://localhost:5002/predict": {
+            "weight": 0.6400000000000001,
+            "stake": 800.0,
+            "total_predictions": 5,
+            "successful_predictions": 4
+        },
+        "http://localhost:5006/predict": {
+            "weight": 0.0,
+            "stake": 200.0,
+            "total_predictions": 4,
+            "successful_predictions": 0
+        }
+    },
+    "history": [
+        {
+            "timestamp": "2025-02-12T14:15:11.211195",
+            "model": "http://localhost:5001/predict",
+            "action": "slash",
+            "amount": 200,
+            "reason": "Distance from consensus: 0.068",
+            "remaining_stake": 800.0
+        },
+        {
+            "timestamp": "2025-02-12T14:15:11.211220",
+            "model": "http://localhost:5002/predict",
+            "action": "slash",
+            "amount": 200,
+            "reason": "Distance from consensus: 0.089",
+            "remaining_stake": 800.0
+        },
+        {
+            "timestamp": "2025-02-12T14:15:11.211239",
+            "model": "http://localhost:5006/predict",
+            "action": "slash",
+            "amount": 200,
+            "reason": "Distance from consensus: 0.172",
+            "remaining_stake": 800.0
+        },
+        {
+            "timestamp": "2025-02-12T14:16:23.282455",
+            "model": "http://localhost:5006/predict",
+            "action": "slash",
+            "amount": 200,
+            "reason": "Distance from consensus: 0.291",
+            "remaining_stake": 600.0
+        },
+        {
+            "timestamp": "2025-02-12T14:16:35.347661",
+            "model": "http://localhost:5006/predict",
+            "action": "slash",
+            "amount": 200,
+            "reason": "Distance from consensus: 0.351",
+            "remaining_stake": 400.0
+        },
+        {
+            "timestamp": "2025-02-12T14:16:45.931518",
+            "model": "http://localhost:5006/predict",
+            "action": "slash",
+            "amount": 200,
+            "reason": "Distance from consensus: 0.087",
+            "remaining_stake": 200.0
+        }
+    ]
+}

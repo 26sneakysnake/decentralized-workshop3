@@ -1,0 +1,16 @@
+{
+    "weights": {
+        "http://localhost:5000/predict": {
+            "weight": 0.9797878885354769,
+            "model_type": "LogisticRegression"
+        },
+        "http://localhost:5001/predict": {
+            "weight": 0.986303182139862,
+            "model_type": "RandomForest"
+        },
+        "http://localhost:5002/predict": {
+            "weight": 0.9880170133480222,
+            "model_type": "SVM"
+        }
+    }
+}
